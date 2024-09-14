@@ -4,6 +4,8 @@ import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { CiMenuFries } from "react-icons/ci";
+import { DialogTitle, DialogDescription } from "@radix-ui/react-dialog"; // Import DialogTitle dan DialogDescription
+import { VisuallyHidden } from "@radix-ui/react-visually-hidden"; // Import VisuallyHidden
 
 const links = [
   {
@@ -37,6 +39,18 @@ const MobileNav = () => {
           <CiMenuFries className="text-[32px] text-accent" />
         </SheetTrigger>
         <SheetContent className="flex flex-col">
+          {/* Visually hidden title for accessibility */}
+          <DialogTitle asChild>
+            <VisuallyHidden>
+              <h2>Mobile Navigation Menu</h2>
+            </VisuallyHidden>
+          </DialogTitle>
+          {/* Dialog description for accessibility */}
+          <DialogDescription asChild>
+            <VisuallyHidden>
+              <p>This is the navigation menu where you can access different pages.</p>
+            </VisuallyHidden>
+          </DialogDescription>
           {/* logo */}
           <div className="mt-32 mb-40 text-center text-2xl">
             <Link href="/">

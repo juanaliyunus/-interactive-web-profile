@@ -23,12 +23,12 @@ const info = [
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "aliyunusjuan.com",
+    description: "aliyunusjuan@gmail.com",
   },
   {
     icon: <FaMapMarkedAlt />,
     title: "Address",
-    description: "Surabaya, Indonesia",
+    description: "Malang, Indonesia",
   },
 ];
 
@@ -38,7 +38,7 @@ import { FaPhoneAlt, FaEnvelope, FaMapMarkedAlt } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <motion.div
+    <motion.section
       initial={{ opacity: 0 }}
       animate={{
         opacity: 1,
@@ -51,8 +51,8 @@ const Contact = () => {
           {/* Form Section */}
           <div className="xl:w-[54%] order-2 xl:order-none">
             <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
-              <h3 className="text-4xl font-bold text-accent">
-                Let's work together
+              <h3 className="text-4xl text-accent">
+                Let&apos;s work together
               </h3>
               <p className="text-white/60">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum
@@ -77,7 +77,6 @@ const Contact = () => {
                     <SelectItem value="est">Web Development</SelectItem>
                     <SelectItem value="cst">UI/UX Design</SelectItem>
                     <SelectItem value="mst">Logo Design</SelectItem>
-                    <SelectItem value="a">Null</SelectItem>
                   </SelectGroup>
                 </SelectContent>
               </Select>
@@ -114,7 +113,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </motion.div>
+    </motion.section>
   );
 };
 
