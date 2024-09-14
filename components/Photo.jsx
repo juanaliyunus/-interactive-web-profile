@@ -27,6 +27,7 @@ const Photo = () => {
             priority
             quality={100}
             fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             alt=""
             className="object-contain"
           />
@@ -44,7 +45,7 @@ const Photo = () => {
             r="250"
             stroke="#00ff99"
             strokeWidth="4"
-            strokwLinecap="round"
+            strokeLinecap="round"
             strokeLinejoin="round"
             initial={{ strokeDasharray: "24 10 0 0" }}
             animate={{
