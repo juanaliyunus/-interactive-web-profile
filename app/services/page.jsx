@@ -7,28 +7,28 @@ const services = [
     num: "01",
     title: "Frontend Development",
     description:
-      "Commodo tempor sunt do reprehenderit officia ullamco tempor. Mollit do aliqua dolore exercitation. Commodo cillum quis est nisi cillum.",
+      "Building engaging and responsive user interfaces using the latest technologies for optimal user experience.",
     href: "",
   },
   {
     num: "02",
     title: "Backend Development",
     description:
-      "Commodo tempor sunt do reprehenderit officia ullamco tempor. Mollit do aliqua dolore exercitation. Commodo cillum quis est nisi cillum.",
+      "Developing server-side logic and databases to support application functionality with high performance and security.",
     href: "",
   },
   {
     num: "03",
     title: "Software Quality Assurance",
     description:
-      "Commodo tempor sunt do reprehenderit officia ullamco tempor. Mollit do aliqua dolore exercitation. Commodo cillum quis est nisi cillum.",
+      "Ensuring software quality through thorough testing and best practices to identify and fix bugs.",
     href: "",
   },
   {
     num: "04",
     title: "Web Development",
     description:
-      "Commodo tempor sunt do reprehenderit officia ullamco tempor. Mollit do aliqua dolore exercitation. Commodo cillum quis est nisi cillum.",
+      "Integrating frontend and backend to create complete and functional web applications ready for user access.",
     href: "",
   },
 ];

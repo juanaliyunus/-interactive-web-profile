@@ -16,7 +16,7 @@ import { SiGo, SiCsharp, SiTailwindcss, SiNextdotjs } from "react-icons/si";
 const about = {
   title: "About me",
   description:
-    "Reprehenderit amet tempor reprehenderit irure et aliqua officia nulla Lorem",
+    "I have a strong foundation in programming, which I developed through my initial interest in embedded software systems during my studies in physics at Institut Teknologi Sepuluh Nopember. Over the years, I have gained extensive software development experience through both formal courses in full stack development, and software quality assurance, as well as dedicated self-study. My practical experience spans back-end and front-end development, as well as software quality assurance. I am committed to continuously enhancing my skills and delivering high-quality solutions. My portfolio demonstrates my ability to effectively tackle diverse technical challenges and contribute to successful development projects.",
   info: [
     {
       fieldName: "Name",
@@ -31,20 +31,21 @@ const about = {
       fieldValue: "juanaliyunus",
     },
     {
-      fieldName: "Nationality",
-      fieldValue: "Indonesia",
-    },
-    {
-      fieldName: "Experience",
-      fieldValue: "12+ Years",
-    },
-    {
       fieldName: "Email",
       fieldValue: "aliyunusjuan@gmail.com",
     },
     {
+      fieldName: "Nationality",
+      fieldValue: "Indonesia",
+    },
+
+    {
       fieldName: "Freelance",
       fieldValue: "Available",
+    },
+    {
+      fieldName: "Experience",
+      fieldValue: "4+ Years in programming",
     },
     {
       fieldName: "Language",
@@ -53,70 +54,90 @@ const about = {
   ],
 };
 
-//experience data
 const experience = {
   icon: "/assets/resume/badge.svg",
-  title: "My experience",
+  title: "My Experience",
   description:
-    "Velit proident ullamco ullamco sunt aliqua pariatur sunt cupidatat magna sit",
+    "Specialized in API integration, front-end development, and IoT research.",
   items: [
     {
-      company: "Tech Solution Inc.",
-      position: "Full Stack Developer",
-      duration: "2022 - Present",
+      company: "Freelance",
+      position: "Software Developer",
+      duration: "May 2024 – Sep 2024",
     },
     {
-      company: "Web design studio",
-      position: "Front-End Developer Intern",
-      duration: "Summer 2021",
+      company: "Freelance",
+      position: "Physics Tutor",
+      duration: "Jan 2024 – May 2024",
     },
     {
-      company: "E-commerce Startup",
-      position: "Freelance Web Developer",
-      duration: "2020 - 2021",
+      company: "IntEl Lab ITS",
+      position: "Embedded Software & IoT Developer",
+      duration: "May 2022 – July 2023",
     },
     {
-      company: "Tech Academy",
-      position: "Teaching Assistant",
-      duration: "2018 - 2019",
+      company: "Community Service Program",
+      position: "Volunteer",
+      duration: "Apr 2022 – Sep 2022",
     },
     {
-      company: "Software Development Firm",
-      position: "Junior Developer",
-      duration: "2017 - 2018",
+      company: "Institut Teknologi Sepuluh Nopember",
+      position: "Lecturer Assistant",
+      duration: "Mar 2022 – Dec 2022",
+    },
+    {
+      company: "Institut Teknologi Sepuluh Nopember",
+      position: "Laboratory Assistant",
+      duration: "Sep 2021 – Dec 2022",
+    },
+    {
+      company: "FOSIF ITS",
+      position: "Leader",
+      duration: "Jan 2021 – Jan 2022",
+    },
+    {
+      company: "HIMASIKA ITS",
+      position: "External Relations",
+      duration: "May 2021 – Jan 2022",
     },
   ],
 };
 
-// education data
+
 const education = {
   icon: "/assets/resume/cap.svg",
-  title: "My education",
+  title: "My Education",
   description:
-    "Velit proident ullamco ullamco sunt aliqua pariatur sunt cupidatat magna sit",
+    "Focused on physics, technology, and software development with hands-on experience in research and development.",
   items: [
     {
-      institution: "Institut Teknologi Sepuluh Npember",
-      degree: "Physics",
+      institution: "Enigmacamp Full Stack Developer",
+      degree: "React.js, React Native, Java",
+      duration: "May 2024 - Sep 2024",
+    },
+    {
+      institution: "Talenta AI Indonesia",
+      degree: "Artificial Intelligence",
+      duration: "Nov 2023 - Jan 2024",
+    },
+    {
+      institution: "DQ Lab Bootcamp",
+      degree: "Data Analyst with SQL & Python",
+      duration: "Aug 2023 - Oct 2023",
+    },
+    {
+      institution: "Institut Teknologi Sepuluh Nopember",
+      degree: "Bachelor's Degree in Physics",
       duration: "2019 - 2023",
     },
     {
-      institution: "Enigma Bootcamp",
-      degree: "Full Stack Developer",
-      duration: "2024",
-    },
-    {
-      institution: "Tech Institute",
-      degree: "Certified Web Developer",
-      duration: "2019",
-    },
-    {
-      institution: "Comunity Collage",
-      degree: "Leader FOSIF",
-      duration: "2019",
+      institution: "SMA Insan Cendekia Mandiri",
+      degree: "MIPA",
+      duration: "2016 - 2019",
     },
   ],
 };
+
 
 // skill list
 const skills = {
@@ -306,7 +327,7 @@ const Resume = () => {
             >
               <div className="flex flex-col gap-[30px]">
                 <h3 className="text-4xl font-bold">{about.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0 text-justify">
                   {about.description}
                 </p>
                 <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0">

@@ -17,8 +17,7 @@ const Home = () => {
               <span className="text-accent">Juan Aliyunus</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              I excel at crafting elegant digital experiences and I am
-              proficient in various programming languages and technologies.
+            Fullstack developer who merges front-end creativity with back-end efficiency, dedicated to maintaining software quality in every project.
             </p>
             {/* Button and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
