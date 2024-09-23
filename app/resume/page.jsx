@@ -16,7 +16,7 @@ import { SiGo, SiCsharp, SiTailwindcss, SiNextdotjs } from "react-icons/si";
 const about = {
   title: "About me",
   description:
-    "I have a strong foundation in programming, which I developed through my initial interest in embedded software systems during my studies in physics at Institut Teknologi Sepuluh Nopember. Over the years, I have gained extensive software development experience through both formal courses in full stack development, and software quality assurance, as well as dedicated self-study. My practical experience spans back-end and front-end development, as well as software quality assurance. I am committed to continuously enhancing my skills and delivering high-quality solutions. My portfolio demonstrates my ability to effectively tackle diverse technical challenges and contribute to successful development projects.",
+    "I have a strong foundation in programming, which I developed through my initial interest in embedded software systems during my studies in physics at Institut Teknologi Sepuluh Nopember. Over the years, I have gained extensive software development experience through both formal courses in full stack development, and software quality assurance, as well as dedicated self-study.",
   info: [
     {
       fieldName: "Name",
