@@ -14,7 +14,7 @@ const services = [
     num: "02",
     title: "Backend Development",
     description:
-      "Developing server-side logic and databases to support application functionality with high performance and security.",
+      "Developing server-side and databases to support application functionality with high performance and security.",
     href: "",
   },
   {
